@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "0.31.1"
+
+[features]
+seeds = false
+resolution = false
+skip-lint = false
+
+[programs.localnet]
+oft = "8NFhuHepc1fFPCZfu2tgPymtruihdSrmFBvjCLjq89g4"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+
+[scripts]
+test = "cargo test -p oft"
